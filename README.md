@@ -1,6 +1,7 @@
 # PullToReferesh1
 
 Pull to referesh feature of android is implemented. Android app is developed using Kotlin.
+It adds the next number in the sequence to the list and displays it on refreshing.
 
 
 Working of App:
