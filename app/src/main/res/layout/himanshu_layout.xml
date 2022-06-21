@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- Creating a card view so that numbers appear
+ in a card and the cards are in list, in below lines-->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#ADF5DA"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="4dp">
+
+    <!-- Creating a Linear Layout for list view of number cards in below lines-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- Creating a Text view for number on cards in below lines-->
+        <TextView
+            android:id="@+id/displayNum"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:padding="4dp"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#4901EA"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
